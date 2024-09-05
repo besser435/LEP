@@ -1,0 +1,37 @@
+# The player gets this item, the exchange gets diamonds.
+sell:
+  - item: minecraft:oak_log
+    item_quantity: 64
+    get:
+      item: minecraft:diamond
+      payment_amount: 1
+
+  - item: create:shaft
+    item_quantity: 128
+    get:
+      item: minecraft:diamond
+      payment_amount: 3
+
+  - item: create:precision_mechanism
+    item_quantity: 16
+    get:
+      item: minecraft:diamond
+      payment_amount: 3
+
+  - item: create:mechanical_crafter
+    item_quantity: 21
+    get:
+      item: minecraft:diamond
+      payment_amount: 8
+
+  - item: toendallmods:steel_block
+    item_quantity: 16
+    get:
+      item: minecraft:diamond
+      payment_amount: 6
+
+# TODO: Does not support modded items for "get" (the players payment)
+# TODO: report bugs found in comos' mod
+# TODO: rename get to "payment"
+# components:   # TODO: implement /give item components
+# The components are in the 1.20.1
