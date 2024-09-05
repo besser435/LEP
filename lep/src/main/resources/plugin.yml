@@ -1,0 +1,19 @@
+name: LEP
+version: ${project.version}
+main: org.besser.lep.Lep
+api-version: '1.20'
+authors: [brandonusa, hexedepixel]
+contributors: [League of Nations]
+description: LoN Economy Plugin
+website: https://github.com/besser435/LEP
+
+commands:
+  lep:
+    description: The LEP prefix
+    #usage: /<command> [args]
+    aliases: [l]
+    permission: lep.lep
+    # TODO: add maintenance/debug commands and assign permissions.
+    # would be for things like manually fetching price data or updates
+
+  # NOTE: Other commands are done in code. Sue me.
