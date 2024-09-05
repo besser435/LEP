@@ -5,6 +5,8 @@ LEP is a custom economy plugin for the TEAW Minecraft server. Currently, it adds
 is automatically updated by the LoN. It also sends data about the economy for future analysis (this will be
 available soon).
 
+You can see a (somewhat outdated) demo [here](https://www.youtube.com/watch?v=9C3f7aCBMCM).
+
 It also includes an undocumented command which may or may not be fun :3
 
 ## Download
