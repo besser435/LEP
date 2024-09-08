@@ -10,7 +10,7 @@ You can see a (somewhat outdated) demo [here](https://www.youtube.com/watch?v=9C
 It also includes an undocumented command which may or may not be fun :3
 
 ## Download
-Head to the [release tab](https://github.com/besser435/LEP/releases) to download the latest jar Currently
+Head to the [release tab](https://github.com/besser435/LEP/releases) to download the latest jar. Currently
 it is for Minecraft 1.20 for Spigot.
 
 ## Contributing

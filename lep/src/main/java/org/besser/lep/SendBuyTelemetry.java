@@ -18,6 +18,7 @@ public class SendBuyTelemetry {
         this.apiUrl = config.getString("telemetry.api_url");
     }
 
+    // Add server ID so when sorting telemetry only TEAW is examined
     public void sendTelemetry(String playerName, UUID playerUUID, String purchasedItem, int purchasedQuantity, String paymentItem, int paymentQuantity, long time) {
         JSONObject jsonPayload = new JSONObject();
         jsonPayload.put("player_name", playerName);
@@ -30,7 +31,7 @@ public class SendBuyTelemetry {
         String jsonString = jsonPayload.toString();
 
         try {
-            URL obj = new URI("https://usa-industries.net/api/lep/update_telemetry").toURL();   // TODO use URL from config, add toggle
+            URL obj = new URI(apiUrl).toURL();
 
             HttpURLConnection connection = (HttpURLConnection)obj.openConnection();
 
@@ -58,7 +59,7 @@ public class SendBuyTelemetry {
         }
         catch (IOException | URISyntaxException e) {
             log(SEVERE, "An error occurred while sending telemetry: " + e.getMessage());
-            e.printStackTrace();
+            //e.printStackTrace();
         }
     }
 }

@@ -14,6 +14,7 @@ public class LepLogger {
     }
 
     public static void log(Level level, String message) {
+        // TODO: be able to send debug messages and add a flag for setting log level (Enable or disable debug messages)
         // TODO: allow any type for message
         // TODO: Import chat colors, so its not needed in each file, and so we can just call the color
 

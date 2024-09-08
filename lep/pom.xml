@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- This video SAVED me: https://www.youtube.com/watch?v=s1xg9eJeP3E -->
-    <!-- Ensure: Maven > Lifecycle, install, is set to "After Build" (right click for menu option)-->
+    <!-- Ensure: Maven > Lifecycle > install > is set to "After Build" (right click for menu option) -->
 
     <groupId>org.besser</groupId>
     <artifactId>LEP</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <packaging>jar</packaging>
 
     <name>LEP</name>
