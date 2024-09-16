@@ -13,7 +13,9 @@ commands:
     #usage: /<command> [args]
     aliases: [l]
     permission: lep.lep
-    # TODO: add maintenance/debug commands and assign permissions.
-    # would be for things like manually fetching price data or updates
+permissions:
+  lep.lep:
+    description: Permission to use the main LEP command.
+    default: true
 
-  # NOTE: Other commands are done in code. Sue me.
+

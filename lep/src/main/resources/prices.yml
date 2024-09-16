@@ -1,4 +1,5 @@
 # The player gets this item, the exchange gets diamonds.
+# To specify modded items for PAYMENT (not sell), use MODID_ITEM
 sell:
   - item: minecraft:oak_log
     item_quantity: 64

@@ -23,6 +23,7 @@ public class LepCommand implements CommandExecutor, TabCompleter {
     /*
         TODO: Make list command more appealing
         TODO: Ensure only items that are craftable can be sold
+        TODO: CRITICAL BUG: Only opped players can use the /lep command
      */
 
     private final Lep plugin;
@@ -39,6 +40,8 @@ public class LepCommand implements CommandExecutor, TabCompleter {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         // switch to switch statements maybe, or do something to make less stupid
+        // TODO: add maintenance/debug commands and assign permissions.
+
         if (args.length > 0) {
             if (args[0].equalsIgnoreCase("list")) {
                 return handleListCommand(sender);

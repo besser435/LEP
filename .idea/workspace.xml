@@ -10,13 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9817af50-2bc4-475b-873d-bf7df7a6c695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lep/lep.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lep/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lep/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/Lep.java" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/Lep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/LepCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/LepCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lep/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lep/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lep/src/main/resources/prices.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/resources/prices.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/brand/OneDrive/Python/GitHub/LEP/lefo/pom.xml",
+    "last_opened_file_path": "C:/Users/brand/OneDrive/Python/GitHub/TEAW-API",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,19 +61,6 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="LEP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="LEP" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LEP" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -120,7 +107,16 @@
       <option name="presentableId" value="Default" />
       <updated>1725510948714</updated>
       <workItem from="1725510949749" duration="1550000" />
-      <workItem from="1725512539571" duration="4627000" />
+      <workItem from="1725512539571" duration="7157000" />
+      <workItem from="1725522783921" duration="14806000" />
+      <workItem from="1725790384071" duration="1250000" />
+      <workItem from="1725793864732" duration="1408000" />
+      <workItem from="1725795373910" duration="79000" />
+      <workItem from="1725795485320" duration="86000" />
+      <workItem from="1725795602584" duration="280000" />
+      <workItem from="1725795894889" duration="4967000" />
+      <workItem from="1726032100690" duration="4406000" />
+      <workItem from="1726180484885" duration="4387000" />
     </task>
     <servers />
   </component>
