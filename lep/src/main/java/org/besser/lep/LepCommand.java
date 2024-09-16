@@ -55,10 +55,8 @@ public class LepCommand implements CommandExecutor, TabCompleter {
                 sender.sendMessage(ChatColor.RED + "Unknown command. Usage: /lep <list|buy|about>");
                 return false;
             }
-        //} else if (args.length == 0) {
-            //return handleListCommand(sender);
         } else {
-            sender.sendMessage(ChatColor.RED + "Usage: /lep <list|buy|about>");    // TODO this should maybe just be the about command
+            sender.sendMessage(ChatColor.RED + "Usage: /lep <list|buy|about>");
             return false;
         }
     }
@@ -121,12 +119,11 @@ public class LepCommand implements CommandExecutor, TabCompleter {
     }
 
     private boolean handleBuyCommand(CommandSender sender, String indexStr) {
-        if (!(sender instanceof Player)) {
+        if (!(sender instanceof Player player)) {
             sender.sendMessage(ChatColor.RED + "Only players can use this command.");
             return false;
         }
 
-        Player player = (Player) sender;
         int index;
 
         try {

@@ -2,16 +2,16 @@
 lep:
   enable: true
   enable_auto_updates: true
-  update_check_interval: 3600 # Will check/download this often, but only install after a restart
+  update_check_interval: 3600         # Will check/download this often, but only install after a restart
 
 # TODO: remove secrets such as the API. this plugin should be publicly available. then just ask theeno to configure it once shipped.
 # TODO: Potential issue, when updating and adding new features, this file will not be populated with thew configs.
 # TODO: /l alias conflicts with TownyChat, maybe just remove it
 # Where and how often to fetch updated pricing info
 prices:
-  enable_auto_updates: true
-  api_url: https://www.usa-industries.net/api/lep/get_prices
-  request_interval: 3600
+  enable_pricing_updates: true           # Whether the prices can be updated from the API
+  api_port: 1851                      # Where the API routes live for pricing updates and info
+  authorized_key: SuperSecretKey      # SECRET: Requests must have this key to update prices
 
 # Where to send telemetry about the plugin's command usage and overall economy health
 telemetry:  # TODO: not used

@@ -77,5 +77,11 @@
             <artifactId>json</artifactId>
             <version>20240303</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.sparkjava/spark-core -->
+        <dependency>
+            <groupId>com.sparkjava</groupId>
+            <artifactId>spark-core</artifactId>
+            <version>2.9.4</version>
+        </dependency>
     </dependencies>
 </project>

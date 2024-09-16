@@ -10,18 +10,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9817af50-2bc4-475b-873d-bf7df7a6c695" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/PricesAPIManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lep/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lep/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lep/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lep/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/AutoUpdatePricesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/LegacyAutoUpdatePricesManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/Lep.java" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/Lep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/LepCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/LepCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lep/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/resources/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lep/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lep/src/main/resources/prices.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/resources/prices.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "HTTP Request.Test | GET request to example server.executor": "Run",
     "Maven.LEP [install].executor": "Run",
     "Maven.LEP [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
     "Maven.LEP [org.apache.maven.plugins:maven-install-plugin:3.1.2:install].executor": "Run",
@@ -47,7 +57,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/brand/OneDrive/Python/GitHub/TEAW-API",
+    "last_opened_file_path": "C:/Users/brand/Desktop/Alejandro-The-Greatest-main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,7 +70,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.besser.lep" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.LEP">
+    <configuration name="Test | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/Test.http" requestIdentifier="GET request to example server" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="LEP" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -89,6 +107,11 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.Test | GET request to example server" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -116,7 +139,7 @@
       <workItem from="1725795602584" duration="280000" />
       <workItem from="1725795894889" duration="4967000" />
       <workItem from="1726032100690" duration="4406000" />
-      <workItem from="1726180484885" duration="4387000" />
+      <workItem from="1726180484885" duration="9363000" />
     </task>
     <servers />
   </component>
