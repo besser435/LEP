@@ -16,6 +16,8 @@ public class PricesAPIManager {
     private String authorizedKey;
     private int apiPort;
 
+    // TODO: Spark is deprecated. Transition to Javalin
+
     public PricesAPIManager(Lep plugin) {
         this.plugin = plugin;
         loadConfig();
@@ -26,7 +28,7 @@ public class PricesAPIManager {
         FileConfiguration config = plugin.getConfig();
         enablePricingUpdates = config.getBoolean("prices.enable_pricing_updates", true);
         authorizedKey = config.getString("prices.authorized_key");
-        int apiPort = config.getInt("prices.api_port", 1851);
+        apiPort = config.getInt("prices.api_port", 1851);
     }
 
     private void initRoutes() {
@@ -37,6 +39,7 @@ public class PricesAPIManager {
 
             if (!authorizedKey.equals(requestKey)) {
                 response.status(401);
+                log(INFO, "Unauthorized API request attempted to update prices from IP: " + request.ip());
                 return "Unauthorized";
             }
 
@@ -44,7 +47,7 @@ public class PricesAPIManager {
 
             if (savePricesFile(newPrices)) {
                 PriceManager.loadPricesConfig(plugin);
-                log(INFO, "Prices updated successfully via API.");
+                log(INFO, "Prices updated successfully from IP: " + request.ip());
                 response.status(200);
                 return "OK";
             } else {

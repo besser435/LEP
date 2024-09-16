@@ -11,6 +11,8 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityPotionEffectEvent;
 import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffectType;
+import org.bukkit.Instrument;
+import org.bukkit.Note;
 
 
 import static java.util.logging.Level.*;
@@ -47,14 +49,14 @@ public final class Lep extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onPotionEffectAdd(EntityPotionEffectEvent event) {
-        if (event.getEntity() instanceof Player && event.getNewEffect() != null) {
+        if (event.getEntity() instanceof Player player && event.getNewEffect() != null) {
             // Despite saying water breathing, its actually invisibility.
             // Bukkit's Material system is bunged.
             if (event.getNewEffect().getType().equals(PotionEffectType.WATER_BREATHING)) {
                 event.setCancelled(true);
 
-                //log(INFO, "Cancelled " + ChatColor.GOLD + event.getNewEffect().getType() + ChatColor.RESET + " for " + event.getEntity().getName()); // console spam on open pipes
-                event.getEntity().sendMessage(ChatColor.RED + "toes AC: Invisibility is disabled!");
+                player.sendMessage(ChatColor.RED + "toes AC: Invisibility is disabled!");
+                player.playNote(player.getLocation(), Instrument.DIDGERIDOO, Note.natural(1, Note.Tone.G));
             }
         }
     }

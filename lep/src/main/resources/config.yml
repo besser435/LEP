@@ -9,11 +9,12 @@ lep:
 # TODO: /l alias conflicts with TownyChat, maybe just remove it
 # Where and how often to fetch updated pricing info
 prices:
-  enable_pricing_updates: true           # Whether the prices can be updated from the API
+  #enable_pricing_updates: true #TODO: not implemented        # Whether the prices can be updated from the API
   api_port: 1851                      # Where the API routes live for pricing updates and info
   authorized_key: SuperSecretKey      # SECRET: Requests must have this key to update prices
 
-# Where to send telemetry about the plugin's command usage and overall economy health
-telemetry:  # TODO: not used
-  enable_telemetry: true
-  api_url: https://www.usa-industries.net/api/lep/update_telemetry
+#telemetry:  # TODO: not used
+# have API port be global. just redo all the networking yml
+#  enable_telemetry: true
+#  authorized_key:
+#

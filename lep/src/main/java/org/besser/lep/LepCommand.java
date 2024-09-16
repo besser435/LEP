@@ -27,14 +27,14 @@ public class LepCommand implements CommandExecutor, TabCompleter {
      */
 
     private final Lep plugin;
-    private final SendBuyTelemetry sendBuyTelemetry;
+    //private final SendBuyTelemetry sendBuyTelemetry;
 
 
     public LepCommand(Lep plugin) {
         this.plugin = plugin;
         FileConfiguration config = plugin.getConfig();
 
-        this.sendBuyTelemetry = new SendBuyTelemetry(config);
+        //this.sendBuyTelemetry = new SendBuyTelemetry(config);
     }
 
     @Override
@@ -172,7 +172,7 @@ public class LepCommand implements CommandExecutor, TabCompleter {
 
         long timeInSeconds = System.currentTimeMillis() / 1000;
 
-        sendBuyTelemetry.sendTelemetry(player.getName(), player.getUniqueId(), itemString, itemQuantity, paymentItemString, paymentAmount, timeInSeconds);
+        //sendBuyTelemetry.sendTelemetry(player.getName(), player.getUniqueId(), itemString, itemQuantity, paymentItemString, paymentAmount, timeInSeconds);
 
         return true;
     }

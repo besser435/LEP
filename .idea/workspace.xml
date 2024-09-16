@@ -10,13 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9817af50-2bc4-475b-873d-bf7df7a6c695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/PricesAPIManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lep/update_prices.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lep/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lep/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/AutoUpdatePricesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/LegacyAutoUpdatePricesManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/Lep.java" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/Lep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/LepCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/LepCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/PricesAPIManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/PricesAPIManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/SendBuyTelemetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/java/org/besser/lep/SendBuyTelemetry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lep/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/resources/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lep/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lep/src/main/resources/plugin.yml" afterDir="false" />
     </list>
@@ -139,7 +138,7 @@
       <workItem from="1725795602584" duration="280000" />
       <workItem from="1725795894889" duration="4967000" />
       <workItem from="1726032100690" duration="4406000" />
-      <workItem from="1726180484885" duration="9363000" />
+      <workItem from="1726180484885" duration="17195000" />
     </task>
     <servers />
   </component>
